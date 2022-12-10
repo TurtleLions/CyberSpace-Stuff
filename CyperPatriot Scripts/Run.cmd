@@ -1,19 +1,19 @@
 set path=%~dp0
 ::Manual Suspicious File Check
-dir c:\users\*.jpg /b/s > %path%filelist.txt
-dir c:\users\*.mp4 /b/s > %path%filelist.txt
-dir c:\users\*.mp3 /b/s > %path%filelist.txt
-dir c:\users\*.webm /b/s > %path%filelist.txt
-dir c:\users\*.zip /b/s > %path%filelist.txt
-dir c:\users\*.rar /b/s > %path%filelist.txt
-dir c:\users\*.png /b/s > %path%filelist.txt
-dir c:\users\*.bat /b/s > %path%filelist.txt
-dir c:\users\*.jpeg /b/s > %path%filelist.txt
-dir c:\users\*.mov /b/s > %path%filelist.txt
-dir c:\users\*.txt /b/s > %path%filelist.txt
-dir c:\users\*.tar.gz /b/s > %path%filelist.txt
-dir c:\users\*.php /b/s > %path%filelist.txt
-dir c:\users\*backdoor*.* /b/s > %path%filelist.txt
+dir c:\users\*.jpg /b/s/a > %path%filelist.txt
+dir c:\users\*.mp4 /b/s/a > %path%filelist.txt
+dir c:\users\*.mp3 /b/s/a > %path%filelist.txt
+dir c:\users\*.webm /b/s/a > %path%filelist.txt
+dir c:\users\*.zip /b/s/a > %path%filelist.txt
+dir c:\users\*.rar /b/s/a > %path%filelist.txt
+dir c:\users\*.png /b/s/a > %path%filelist.txt
+dir c:\users\*.bat /b/s/a > %path%filelist.txt
+dir c:\users\*.jpeg /b/s/a > %path%filelist.txt
+dir c:\users\*.mov /b/s/a > %path%filelist.txt
+dir c:\users\*.txt /b/s/a > %path%filelist.txt
+dir c:\users\*.tar.gz /b/s/a > %path%filelist.txt
+dir c:\users\*.php /b/s/a > %path%filelist.txt
+dir c:\users\*backdoor*.* /b/s/a > %path%filelist.txt
 
 ::open lusrmgr
 start c:\Windows\System32\lusrmgr.msc
